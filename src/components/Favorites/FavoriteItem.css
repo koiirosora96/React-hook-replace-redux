@@ -6,3 +6,15 @@
 .favorite-item p {
   margin: 0.25rem 0;
 }
+
+.delete-button {
+  display: inline-block;
+  font-size: 8px;
+  padding: 4px 8px;
+  border: 2px solid #333;
+}
+
+.delete-button:hover {
+  border: 2px solid rgb(255, 0, 0);
+  color: red;
+}
